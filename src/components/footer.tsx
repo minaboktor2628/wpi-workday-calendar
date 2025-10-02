@@ -54,7 +54,8 @@ export default function Footer() {
         </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} MIT Licensed; <b>By Mina Boktor</b>
+        © {new Date().getFullYear()} MIT Licensed;{" "}
+        <b>Made with {"</3"} by Mina Boktor</b>
       </p>
     </footer>
   );

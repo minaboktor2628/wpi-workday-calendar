@@ -24,10 +24,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="/todo"
+            href="https://github.com/minaboktor2628/wpi-workday-calendar/issues/new"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">Report a bug</p>
+            <p className="ml-2 h-7">report a bug</p>
           </a>
         </li>
         <li>
@@ -35,18 +35,7 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/vercel/next.js"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
+            href="https://github.com/minaboktor2628/wpi-workday-calendar"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">view source</p>

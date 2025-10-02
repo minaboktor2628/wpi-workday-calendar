@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { TutorialSection } from "@/components/tutorial";
 import { UploadForm } from "@/components/upload-form";
+import { TutorialSection } from "@/components/tutorial";
 
 export default function Home() {
   return (
     <div className="prose dark:prose-invert flex flex-col">
-      <h1 className="mb-0">WPI Workday To Outlook Calendar Converter</h1>
+      <h1 className="mb-0">WPI Workday To Calendar Converter</h1>
       <p>
         Turn your Workday's registered courses an uploadable <code>.ics</code>{" "}
         file. This file format is compatible with <b>Outlook</b>,{" "}
@@ -16,6 +16,10 @@ export default function Home() {
         </Link>
       </p>
       <UploadForm />
+      <p>
+        <b>TIP:</b> make a new calendar just for using this app. See this{" "}
+        <Link href="#protip">later section</Link> for more detail.
+      </p>
       <TutorialSection />
     </div>
   );

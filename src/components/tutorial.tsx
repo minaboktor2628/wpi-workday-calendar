@@ -116,10 +116,12 @@ export function TutorialSection() {
           Now, you should get 15 minute reminder before events, have categorized
           events, and have event locations set!
         </p>
-        <p>
+        <p id="protip">
           <b>PRO TIP: </b> create a new calendar that you use to upload your
           classes. You can do so by pressing <b>Create blank calendar</b> on the{" "}
-          <b>Add calendar</b> menu.
+          <b>Add calendar</b> menu. That way, if you frequently switch courses,
+          or would like to just toggle off all registered courses, you can just
+          delete only that calendar.
         </p>
         <p>Enjoy!</p>
       </section>

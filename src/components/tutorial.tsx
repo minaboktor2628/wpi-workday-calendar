@@ -56,8 +56,8 @@ export function TutorialSection() {
       <section id="step:2">
         <h3>Step 2: Upload the Excel file to this tool</h3>
         <p>
-          Now that you have the Excel file, you can either drag and drop the
-          file to <Link href="#">the form above</Link>
+          Now that you have the Excel file, you can drag and drop the file to{" "}
+          <Link href="#">the form above</Link>
           <Image
             src="/tutorial/upload-excel.png"
             alt="Picure of the upload form at the top of this website"

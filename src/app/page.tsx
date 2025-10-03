@@ -7,10 +7,10 @@ export default function Home() {
     <div className="prose dark:prose-invert flex flex-col">
       <h1 className="mb-0">WPI Workday To Calendar Converter</h1>
       <p>
-        Turn your Workday's registered courses an uploadable <code>.ics</code>{" "}
-        file. This file format is compatible with <b>Outlook</b>,{" "}
-        <b>Google Calendar</b> and <b>Apple Calendar</b>. Not sure how this
-        works?{" "}
+        Turn your Workday's registered courses to an uploadable{" "}
+        <code>.ics</code> file. This file format is compatible with{" "}
+        <b>Outlook</b>, <b>Google Calendar</b> and <b>Apple Calendar</b>. Not
+        sure how this works?{" "}
         <Link href="#tutorial" className=" items-center transition-all inline">
           <i>Go to the tutorial</i>
         </Link>
